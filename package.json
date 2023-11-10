@@ -1,0 +1,24 @@
+{
+	"name": "as-finder-scd",
+	"version": "0.1.0",
+	"description": "ASFinder-SCD",
+	"homepage": "https://github.com/tfwangasimb/ASFinder-SCD",
+	"engines": {
+		"node": ">=16.14.0"
+	},
+	"private": true,
+	"preferGlobal": true,
+	"bin": {
+		"AS-aa-content": "./bin/AS-aa-content",
+		"AS-codon-usage": "./bin/AS-codon-usage",
+		"AS-Finder-SCD": "./bin/AS-Finder-SCD",
+		"AS-Finder-polyX": "./bin/AS-Finder-polyX",
+		"AS-Finder-7polyX": "./bin/AS-Finder-7polyX",
+		"AS-Xcontent-7polyX": "./bin/AS-Xcontent-7polyX",
+		"AS-GOfuncR-FWER": "./bin/AS-GOfuncR-FWER"
+	},
+	"dependencies": {
+		"fast-xml-parser": "^4.0.3",
+		"big-json": "^3.1.0"
+	}
+}
